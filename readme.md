@@ -22,12 +22,12 @@ Clone the repository:
 
 bash
 Copy code
-git clone https://github.com/YOUR_USERNAME/medical-bill-upload-service.git
+git clone https://github.com/rahulyad011/bill_upload_service.git
 Navigate to the project directory:
 
 bash
 Copy code
-cd medical-bill-upload-service
+cd bill_upload_service
 Install the dependencies:
 
 Copy code
