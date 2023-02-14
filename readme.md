@@ -46,5 +46,3 @@ You can run the API tests by running the following command:
 bash
 Copy code
 npm test
-License
-This project is licensed under the MIT License.
