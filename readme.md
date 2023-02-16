@@ -20,15 +20,6 @@ Install the dependencies:
 npm install
 ```
 
-## Running the Service
-You can start the service by running the following command:
-```bash
-npm start
-# or
-npm run dev
-```
-The service will be running on http://localhost:3001
-
 ## Testing the Service
 You can run the API tests by running the following command:
 ```bash
@@ -37,6 +28,15 @@ npm test
 npm run test
 ```
 Test is successful if both of the included test cases pass
+
+## Running the Service
+You can start the service by running the following command:
+```bash
+npm start
+# or
+npm run dev
+```
+The service will be running on http://localhost:3001
 
 ## Endpoints
 The service provides the following two endpoints:
