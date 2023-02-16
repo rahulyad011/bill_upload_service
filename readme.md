@@ -11,7 +11,7 @@ Clone the repo:
 
 ```bash
 git clone https://github.com/rahulyad011/bill_upload_service.git
-cd cd bill_upload_service
+cd bill_upload_service
 ```
 
 Install the dependencies:
