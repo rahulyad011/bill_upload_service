@@ -55,13 +55,13 @@ Both endpoints accept and return JSON.
 Below mentioned is a sample bill which can be used to test the above two endpoints
 ```
 {
-      "patient": {
-          "name": "testuser2",
-          "address": "city, state, country"
+    "patient": {
+        "name": "testuser2",
+        "address": "city, state, country"
     },
-      "hospitalName": "testhospital2", 
-      "dateOfService": "02/15/2022", 
-      "billAmount": "500"
+    "hospitalName": "testhospital2",
+    "dateOfService": "02/15/2022",
+    "billAmount": "500"
 }
 ```
 
