@@ -27,7 +27,7 @@ npm start
 # or
 npm run dev
 ```
-The service will be running on http://localhost:3000
+The service will be running on http://localhost:3001
 
 ## Testing the Service
 You can run the API tests by running the following command:
