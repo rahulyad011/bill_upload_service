@@ -41,23 +41,30 @@ Test is successful if both of the included test cases pass
 ## Endpoints
 The service provides the following two endpoints:
 
-1. `GET /items` - returns a list of medical bills
-2. `POST /items` - creates a new medical bill and adds it to the list of bills
+1. `GET /items` - returns a list of all medical bills
+2. `POST /items` - creates a new medical bill and adds it to existing the list of bills
 
 Both endpoints accept and return JSON.
 
 ## A medical bill has the following properties:
+1. `patient` # json with name and address of the patient
+2. `hospitalName` # name of the hospital
+3. `dateOfService` # date of the service
+4. `billAmount` # bill amount in USD
+
+Below mentioned is a sample bill which can be used to test the above two endpoints
 ```
 sample_bill = {
       patient: {
-          name: "",
-          address: ""
-      }, # name and address of the patient
-      hospitalName: "", # name of the hospital
-      dateOfService: "", # date of the service
-      billAmount: "" # bill amount in USD
+          name: "testuser2",
+          address: "city, state, country"
+      },
+      hospitalName: "testhospital2", 
+      dateOfService: "02/15/2022", 
+      billAmount: "500"
   }
 ```
+
 ## Validations:
 1. All input fields are mandatory
 2. Bill amount can't be a negative value
